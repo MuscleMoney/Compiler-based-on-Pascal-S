@@ -1,0 +1,60 @@
+const c1=+000, c2=-001406, c3=+123, c4=-123,
+  c5='a', c6='1', c7='0', c8=0123.456, c9=12345.6789;
+
+var k: integer;
+    ch1, ch2: char;
+    r1, r2, r3: real;
+    ia1: array[20] of integer;
+    ca1: array[10] of char;
+    a,b,c:integer;
+
+function max(i1,i2: integer):integer;
+begin
+if i1>i2 then
+   max:= i1
+else
+   max:= i2;
+end;
+
+function test(j1,j2,j3,j4:integer):integer;
+var t:integer;
+begin
+	test:=j1;
+end;
+
+procedure foo(d:integer);
+var i,j: integer;
+begin
+	case d of
+	1:begin
+ 		for i:=0 to 5 do
+      			for j:=0 to 5 do
+          			write(i*10+j);
+  	  end;
+	2:write("23333");
+	3:write(+123*(-d)+000123-0001122.3344-max(1234,d)+1-0)
+end;
+end;
+
+begin
+	a:=b;
+	a:=a+b;
+	ia1[12]:=max(2,3)+test(1,2,3,4);
+	if a>b then
+		if b>c then 
+			a:=b
+		else 
+			a:=c;
+	foo(2);
+	begin
+		begin
+		end
+	end;
+	write("happy",a);
+	write("hello world!");
+	write(a+b);
+	write(ia1[12]);
+	for a:= b to 10 do
+		for a:= c downto 1 do
+			A:=0;
+end .

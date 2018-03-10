@@ -1,0 +1,17 @@
+var i,j:integer;
+
+procedure swap(var c,d:integer);
+var tmp:integer;
+begin
+    tmp:=c;
+    c:=d;
+    d:=tmp;
+end;
+
+begin
+    read(i);
+    read(j);
+    swap(i,j);
+    write(i);
+    write(j);
+end

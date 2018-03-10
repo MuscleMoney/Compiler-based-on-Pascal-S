@@ -1,0 +1,14 @@
+const a=1;
+var i;
+function f(p:integer):integer;
+begin
+    f:=0.1;
+end;
+
+begin
+    a:=2;;
+    end;
+    a:=0.2;
+    i:=f;
+    i:=f(1,2,3);
+end.

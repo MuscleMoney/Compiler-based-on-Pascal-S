@@ -1,0 +1,70 @@
+const five=+5, a='a',b='b', seven=7.001;
+
+var i,j,k:integer;
+    c:char;
+    r,s,t:real;
+
+function poweri(int:integer):integer;
+begin
+    powerI:=int*iNt;
+end;
+
+function powerr(double:real):real;
+begin
+    poWerR:=double*double;
+end;
+
+procedure testif;
+begin
+    i:=5;
+    j:=4;
+    r:=5.0;
+    if i>j then
+	write("i>j,power(i):",poweri(i));
+    if j>i then
+	write("j>i,power(j):",poweri(j))
+    else
+	write("j>i,power(j):",poweri(j));
+    if i>=R then
+	write("i>=R",r);
+end;
+
+procedure testcase;
+begin
+    for i:=0 to 5 do
+	case i of
+	    0:write("case0:",i);
+	    1:write("case1:",i);
+	    2:write("case2:",i);
+	    3:write("case3:",i);
+	    4:write("case4:",i);
+	    5:write("case5:",i)
+	end;
+end;
+
+procedure testfor;
+begin
+    for i:=0 to 8 do
+	write("for:",i);
+    for i:=0 downto -9 do
+	write("for:",i);
+end;
+
+
+
+procedure testexp;
+begin
+    write(a+a-a*a/a);
+    write(-(-(+a)));
+    write(poweri(five)+(-poweri(five))+0.0012345);
+end;
+
+begin
+    testif;
+    testcase;
+    testfor;
+    testconsttype;
+    testvartype;
+    testexp;
+end.
+    

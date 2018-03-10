@@ -1,0 +1,15 @@
+const a=1;
+var b:integer;
+
+procedure p1;
+begin
+;;;;
+a:=2;
+end;
+
+procedure p2;
+begin
+end;
+
+begin
+end
